@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto';
-    background-color: #1f2937;
     color: white;
     margin: 0;
 }
@@ -9,6 +8,7 @@ body {
     padding-bottom: 40px;
     padding-left: 60px;
     padding-right: 60px;
+    background-color: #1f2937;
 }
 
 .header {display: flex;
@@ -114,4 +114,73 @@ width: 250px;
     max-width: 100%;
     margin: 0 auto;
     font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    text-align: left;
+    max-width: 800px;
+}
+
+.signature {
+    width: 100%;
+    text-align: right;
+    max-width: 800px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.action {
+    background: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.action-text {
+    margin: 0;
+}
+
+.action-button {
+    background: #3882f6;
+    border: 2px solid white;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 0 2px white;
+}
+
+.section-four {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
